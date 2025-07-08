@@ -7,7 +7,6 @@ WORKDIR /app
 # Copy gradle files first to leverage Docker cache
 COPY gradle gradle
 COPY gradlew .
-COPY gradle.properties .
 COPY build.gradle.kts .
 COPY settings.gradle.kts .
 
